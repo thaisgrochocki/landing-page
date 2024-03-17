@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color-bege: #F5F1EB;
+    --bg-color-cinza: #F9F9F9;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: VAR(--bg-color-cinza);
+    color: #383743;
+    font-size: 16px;
+}
+
+.head {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 58px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    padding-left: 6px;
+}
+
+.logo:hover {
+    font-size: 180%;
+    transition: font-size 0.6s ease;
+}
+
+ul.acoes {
+    display: inline-flex;
+    list-style: none;
+}
+
+li.list-item {
+    padding: 0 16px;
+}
+
+li>a.link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+li>a.link:hover {
+    text-decoration: underline;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-space-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+}
+
+.container-image-top {
+    width: 100%;
+    height: 100vh;
+}
+
+.image-top {
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 48px;
+}
+
+.image-top,
+.container-sobre,
+.container-equipe {
+    background-color: var(--bg-color-bege);
+}
+
+.container-sobre,
+.container-produtos,
+.container-equipe,
+.container-contato {
+    width: 100%;
+    height: 100vh;
+    padding: 0 36px 48px 36px;
+}
+
+.title-sobre,
+.title-produtos,
+.title-equipe,
+.title-contato,
+.container-image-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+.image-sobre {
+    align-items: center;
+    justify-content: center;
+    padding: 26px 0;
+}
+
+.container-text-sobre {
+    display: flex;
+    justify-content: center;
+}
+
+.text-sobre-I {
+    font-size: 20px;
+    font-weight: bold;
+    width: 600px;
+    padding: 0 50px;
+}
+
+.text-sobre-II {
+    font-size: 20px;
+    width: 600px;
+    padding: 0 50px;
+}
+
+.text-sobre-III {
+    width: 800px;
+    padding-top: 36px;
+    font-size: 25px;
+}
+
+/* Produtos */
+
+.product-item {
+    padding: 16px 28px;
+}
+
+.item-photo {
+    width: 700px;
+    height: 700px;
+}
+
+.title-item {
+    text-align: center;
+}
+
+/* Card */
+
+.container-cards {
+    padding-top: 80px;
+}
+
+.card {
+    max-width: 300px;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.card .info {
+    padding: 20px;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.card p {
+    margin: 10px 0 0;
+    color: #666;
+}
+
+/* Formulário */
+
+.container-formulario {
+    margin: auto;
+    padding: 100px 20px;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Botão Flutuante */
+
+#btnTopo {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#btnTopo:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

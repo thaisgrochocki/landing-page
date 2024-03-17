@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CozMetic - Produtos de Beleza</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./global.css">
+</head>
+
+<body>
+    <div class="main">
+        <header class="head">
+            <div>
+                <a href="#" class="logo">
+                    <span>CozMetic</span>
+                </a>
+            </div>
+            <div>
+                <ul class="acoes">
+                    <li class="list-item">
+                        <a href="#" class="link" onclick="scrollToSection('sobre')">Sobre</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="link" onclick="scrollToSection('produtos')">Produtos</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="link" onclick="scrollToSection('equipe')">Equipe</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="link" onclick="scrollToSection('contato')">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="content">
+            <section id="image-top" class="container-image-top">
+                <img src="./images/smiling-woman.jpg" alt="Smiling Woman" class="image-top">
+            </section>
+            <section id="sobre" class="container-sobre">
+                <div class="title-sobre">
+                    <h1>
+                        Sobre o Grupo CozMetic
+                    </h1>
+                </div>
+                <div class="container-image-sobre">
+                    <img src="./images/banner-sobre-grupo-1.jpg" alt="Banner sobre o grupo" class="image-sobre">
+                </div>
+                <div class="container-text-sobre">
+                    <div class="text-sobre-I">
+                        <span>Somos o Grupo CozMetic e o nosso propósito é criar oportunidades para a beleza transformar
+                            a
+                            vida das pessoas e o mundo ao nosso redor
+                        </span>
+                    </div>
+                    <div class="text-sobre-II">
+                        <span>Esse propósito é o que nos conecta com o nosso maior tesouro – o nosso cliente – e é
+                            também o
+                            alicerce que ampara as nossas principais conquistas: hoje somos um dos maiores grupos
+                            empresariais do Brasil, a maior franquia de beleza do mundo e temos a marca de cosméticos
+                            mais
+                            amada do país.</span>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <span class="text-sobre-III">Nascemos em 1999, como uma pequena farmácia de manipulação movida pela
+                        alquimia dos cosméticos
+                        e das relações humanas. A nossa fundadora, Isabella Aragão, sonhava em construir uma marca de
+                        beleza 100% brasileira, com produtos de alta qualidade, inspirados no amor e no cuidado com as
+                        pessoas. Com esse olhar inquieto, atento e gentil, ele transformou o seu pequeno empreendimento
+                        na Rua Saldanha Marinho em uma loja CozMetic, hoje a marca de beleza mais amada pelo
+                        consumidor brasileiro.</span>
+                </div>
+            </section>
+            <section id="produtos" class="container-produtos">
+                <div class="title-produtos">
+                    <h1>
+                        Conheça os produtos CozMetic
+                    </h1>
+                </div>
+                <div class="container-produtos d-flex justify-content-center">
+                    <div class="product-item">
+                        <img src="./images/cosmetic1.png" alt="Maquiagem" class="item-photo">
+                        <h3 class="title-item">Linha de Maquiagens CozMetic</h3>
+                        <br>
+                        <span class="title-item">Kit CozMetic Collection Cuidados com a Pele</span>
+                    </div>
+                    <div class="product-item">
+                        <img src="./images/cosmetic2.png" alt="Nature" class="item-photo">
+                        <h3 class="title-item">Linha Nature CozMetic</h3>
+                        <br>
+                        <span class="title-item">Kit CozMetic Collection Cuidados com a Pele</span>
+                    </div>
+                </div>
+            </section>
+            <section id="equipe" class="container-equipe">
+                <div class="title-equipe">
+                    <h1>
+                        Nossa Equipe CozMetic
+                    </h1>
+                </div>
+                <div class="container-cards d-flex justify-space-evenly">
+                    <div class="card">
+                        <img src="./images/empregado0.jpg" alt="Foto do Membro da Equipe">
+                        <div class="info">
+                            <h2>Isabella Sophia Hadassa Aragão</h2>
+                            <p>CEO CozMetic</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/empregado1.jpg" alt="Foto do Membro da Equipe">
+                        <div class="info">
+                            <h2>Roberto Joaquim Mendes</h2>
+                            <p>CFO CozMetic</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/empregado2.jpg" alt="Foto do Membro da Equipe">
+                        <div class="info">
+                            <h2>Ricardo Edson Gonçalves</h2>
+                            <p>CMO CozMetic</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/empregado3.jpg" alt="Foto do Membro da Equipe">
+                        <div class="info">
+                            <h2>Carolina Isabela Esther de Paula</h2>
+                            <p>CHRO CozMetic</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contato" class="container-contato">
+                <div class="title-contato">
+                    <h1>
+                        Contato CozMetic
+                    </h1>
+                </div>
+                <div class="container-contato">
+                    <div class="container-formulario">
+                        <h2>Formulário de Contato</h2>
+                        <form action="#" method="post">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                            <label for="estados">Selecione um Estado:</label>
+                            <select id="estados">
+                                <option value="">Selecione...</option>
+                                <option value="Acre">Acre</option>
+                                <option value="Alagoas">Alagoas</option>
+                                <option value="Amapá">Amapá</option>
+                                <option value="Amazonas">Amazonas</option>
+                                <option value="Bahia">Bahia</option>
+                                <option value="Ceará">Ceará</option>
+                                <option value="Distrito Federal">Distrito Federal</option>
+                                <option value="Espírito Santo">Espírito Santo</option>
+                                <option value="Goiás">Goiás</option>
+                                <option value="Maranhão">Maranhão</option>
+                                <option value="Mato Grosso">Mato Grosso</option>
+                                <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                                <option value="Minas Gerais">Minas Gerais</option>
+                                <option value="Pará">Pará</option>
+                                <option value="Paraíba">Paraíba</option>
+                                <option value="Paraná">Paraná</option>
+                                <option value="Pernambuco">Pernambuco</option>
+                                <option value="Piauí">Piauí</option>
+                                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                                <option value="Rondônia">Rondônia</option>
+                                <option value="Roraima">Roraima</option>
+                                <option value="Santa Catarina">Santa Catarina</option>
+                                <option value="São Paulo">São Paulo</option>
+                                <option value="Sergipe">Sergipe</option>
+                                <option value="Tocantins">Tocantins</option>
+                            </select>
+                            <label for="cidades">Escreva a sua Cidade:</label>
+                            <input type="text" id="cidades" name="cidades" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" required></textarea>
+
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <button id="btnTopo" onclick="voltarAoTopo()">&#8593;</button>
+    <footer>
+        <p>&copy; 2024 CozMetic - Todos os direitos reservados</p>
+    </footer>
+</body>
+<script>
+    function scrollToSection(sectionId) {
+        var section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function voltarAoTopo() {
+        if (document.body.scrollTop !== 0 || document.documentElement.scrollTop !== 0) {
+            window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+        }
+    }
+
+    window.onscroll = function () {
+        var btnTopo = document.getElementById("btnTopo");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            btnTopo.style.display = "block";
+        } else {
+            btnTopo.style.display = "none";
+        }
+    };
+</script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
+</html>
